@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sqls>
+	<!-- Account Start-->
+	<Account.SelectAll>
+		SELECT USER_ID,USER_NAME,USER_ACCOUNT,USER_PASSWORD,CREATE_DATE,LAST_LOGIN_DATE,ROLE_ID,USER_ENABLE FROM ACCOUNT
+	</Account.SelectAll>
+	<!-- Account End-->
+	
+</sqls>
