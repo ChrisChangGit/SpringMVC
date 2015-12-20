@@ -56,22 +56,29 @@
         	<version>${spring.security.version}</version>
     	</dependency>
 		
-		<!-- AspectJ Libaray JAR -->
+		<!-- AspectJ Library JAR -->
 		<dependency>
 			<groupId>org.aspectj</groupId>
 			<artifactId>aspectjweaver</artifactId>
 			<version>${AspectJ.version}</version>
 		</dependency>
 		
-		<!-- jUnit Libaray JAR -->
+		<!-- jUnit Library JAR -->
 		<dependency>
 			<groupId>junit</groupId>
 	      	<artifactId>junit</artifactId>
 	      	<version>${jUnit.version}</version>
 	      	<scope>test</scope>
     	</dependency>
-    
-		<!-- jstl Libaray JAR -->
+    	
+		<!-- Validation Library JAR -->
+		<dependency>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
+			<version>1.1.0.Final</version>
+    	</dependency>
+    	
+		<!-- jstl Library JAR -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
