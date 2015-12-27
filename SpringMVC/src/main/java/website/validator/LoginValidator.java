@@ -5,15 +5,14 @@ import org.springframework.validation.Errors;
 import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;
 
-import website.orm.LoginBean;
+import website.model.bean.LoginBean;
 
 @Service(value = "loginValidator")
 public class LoginValidator implements Validator {
 
 	@Override
 	public boolean supports(Class<?> clazz) {
-//		return LoginBean.class.equals(clazz);
-		return LoginBean.class.isAssignableFrom(clazz);
+		return LoginBean.class.equals(clazz);
 	}
 
 	@Override

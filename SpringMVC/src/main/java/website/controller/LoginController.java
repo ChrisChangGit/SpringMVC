@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.support.SessionStatus;
 import org.springframework.web.servlet.ModelAndView;
 
-import website.orm.LoginBean;
+import website.model.bean.LoginBean;
 import website.validator.LoginValidator;
 
 @Controller
@@ -29,7 +29,7 @@ public class LoginController {
 	}
 	
 	@RequestMapping(value = "/")
-	public ModelAndView LoginForm() {
+	public ModelAndView createLoginForm() {
 		return new ModelAndView("login", "login", new LoginBean());
 	}
 	

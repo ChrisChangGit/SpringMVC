@@ -1,4 +1,4 @@
-package website.orm;
+package website.model.bean;
 
 import java.io.Serializable;
 
